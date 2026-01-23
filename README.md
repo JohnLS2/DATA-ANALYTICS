@@ -1,4 +1,4 @@
-<h2 align="center"><u>DATA-ANALYTICS</u></h2>
+<h2 align="center"><u>**DATA-ANALYTICS**</u></h2>
 
 <h4 align="center"> A repository for 7-ANALYTICS </h4>
 
@@ -13,8 +13,5 @@
     <img src="https://img.shields.io/badge/Open%20Source-No-orange?style=flat-square">
     <img src="https://img.shields.io/badge/Maintained-Yes-cyan?style=flat-square">
     <img src="https://img.shields.io/badge/Made%20In-Philippines-green?style=flat-square">
-<br>
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=JohnLS2&repo=DATA-ANALYTICS&theme=synthwave">
 </p>
-
 
