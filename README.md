@@ -1,4 +1,4 @@
-<h2 align="center"><u>**DATA-ANALYTICS**</u></h2>
+<h2 align="center"><u>DATA-ANALYTICS</u></h2>
 
 <h4 align="center"> A repository for 7-ANALYTICS </h4>
 
