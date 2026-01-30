@@ -1,0 +1,16 @@
+Whats the real difference? 
+Aritificial Intelligence (AI): The big picture (Grand Vision)
+- The goal to make machines learn the humans
+
+Machine Learning (ML): The engine that powers AI
+- A subset of AI where systems learns patterns from data,
+
+Data Science (DS): The translator
+- The practice of turning raw data into meaningful insights
+
+How they work?
+AI, Machine Learning (ML), and Data Science (DS) learn by analyzing vast datasets to identify patterns, improve predictions, 
+and make decisions without being explicitly programmed for every task. ML models use algorithms (supervised, unsupervised, reinforcement) 
+to train on data, while Data Science preps this data to inform models. 
+
+
