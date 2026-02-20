@@ -1,0 +1,57 @@
+ 1. Basic Calculation Functions
+These are the foundational tools for any spreadsheet. 
+
+=SUM(range): Adds all numbers in a selected range of cells.
+=AVERAGE(range): Calculates the mathematical mean of a range.
+=MIN(range) / =MAX(range): Finds the lowest or highest value in a dataset.
+=COUNT(range): Counts only the cells containing numbers.
+=COUNTA(range): Counts all non-empty cells (numbers, text, and errors). 
+
+2. Logical and Conditional Functions
+Used for decision-making and filtering data based on specific rules. 
+
+=IF(condition, value_if_true, value_if_false): Returns one value if a condition is met and another if it is not.
+=SUMIFS(sum_range, criteria_range, criteria): Adds values that meet one or more specific conditions.
+=COUNTIFS(range, criteria): Counts how many cells meet multiple specific criteria.
+=IFERROR(formula, value_if_error): Catches errors and displays a custom message (like "0" or "Not Found") instead of an error code. 
+
+3. Lookup and Reference Functions
+Essential for finding data across different tables or sheets. 
+ 
+=VLOOKUP(value, table, col_index, [range_lookup]): Searches for a value in the first column of a table and returns data from a specified column in the same row.
+=XLOOKUP(value, lookup_range, return_range): A more flexible and modern version of VLOOKUP that can search in any direction.
+=INDEX(range, row_num, [col_num]) + =MATCH(value, range, 0): A powerful combination used together to perform advanced, high-performance lookups. 
+
+4. Text and Data Cleaning Functions
+Used to format and repair "messy" data. 
+
+=TRIM(text): Removes all extra spaces except for single spaces between words.
+=CONCAT(text1, text2): Joins two or more text strings together into one cell.
+=LEFT(text, num) / =RIGHT(text, num): Extracts a specific number of characters from the start or end of a cell.
+=LEN(text): Counts the number of characters in a cell, including spaces. 
+
+5. Date and Time Functions
+=TODAY(): Automatically displays the current date.
+=NOW(): Displays the current date and time.
+=DATEDIF(start, end, unit): Calculates the number of days, months, or years between two dates. 
+
+=====================================================================================================================
+HOW TO?
+
+1. How to use the IF Function
+The IF function is used to make decisions. It checks a condition and returns one result if the condition is True and another if it is False.
+Scenario: You want to check if a student passed a test. If their score in cell A2 is 70 or higher, they "Pass"; otherwise, they "Fail".
+Step 1: Select the cell where you want the result.
+Step 2: Type =IF(A2>=70, "Pass", "Fail").
+Step 3: Press Enter.
+
+2. How to use the VLOOKUP Function
+VLOOKUP (Vertical Lookup) searches for a specific value in one column and returns information from another column in the same row.
+Scenario: You have an ID number in cell E2 and you want to find the corresponding "Employee Name" from a table in the range A2:B10.
+Step 1: Select an empty cell.
+Step 2: Type =VLOOKUP(E2, A2:B10, 2, FALSE).
+E2: The value you are looking for.
+A2:B10: The range where your data is located.
+2: The column number that contains the name (Column B is the 2nd column).
+FALSE: Tells Excel to find an exact match.
+Step 3: Press Enter.
